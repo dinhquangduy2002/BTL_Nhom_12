@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "361812048006",
+    "project_id": "myfoodapp-15d72",
+    "storage_bucket": "myfoodapp-15d72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361812048006:android:184ed0d5bdd627ddfd3907",
+        "android_client_info": {
+          "package_name": "com.pnhue.myfoodapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "361812048006-ker9eg5fhqiu297tj7fco0n1fvij54p2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdJfd5WnlvctT3PRvg67x3d3LwtPEEBA8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "361812048006-ker9eg5fhqiu297tj7fco0n1fvij54p2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

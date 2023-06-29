@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MyFoodApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="line"> Not crossed <strike> crossed </strike> </string>
+    <string name="nd_fresh"><b>ND Fresh </b>là hệ thống cửa hàng thực phẩm sạch uy tín nhất ở Việt Nam, chuyên cung cấp thực phẩm sạch tới từng bếp ăn của gia đình bạn.</string>
+    <string name="tam_nhin"><b>Tầm nhìn: </b>Được nuôi trồng, chế biến theo phương Bio (sinh học), Organic (hữu cơ), Eco (sinh thái); cam kết không bán hàng giả, hàng nhái và hàng kém chất lượng. Sản phẩm được giao đến tay khách hàng luôn đúng cam kết, đúng chất lượng niệm yết, luôn được bảo quản trong môi trường lý tưởng, đảm bảo vệ sinh an toàn thực phẩm.</string>
+    <string name="muc_tieu"><b>Mục tiêu: </b> Sản phẩm được giao đến tay khách hàng luôn đúng cam kết, đúng chất lượng niệm yết, luôn được bảo quản trong môi trường lý tưởng, đảm bảo vệ sinh an toàn thực phẩm.</string>
+    <string name="footer_address"><b>Địa chỉ:</b> 266 Đội Cấn, Ba Đình, Hà Nội</string>
+    <string name="footer_phone"><b>Điện thoại:</b> 19006750</string>
+    <string name="footer_email"><b>Email:</b> toongteam@com.vn</string>
+
+</resources>

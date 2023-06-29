@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.pnhue.myfoodapp.ui.home.HomeFragment"
+        android:label="Trang chủ"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_introduction"
+        android:name="com.pnhue.myfoodapp.ui.gallery.IntroductionFragment"
+        android:label="Giới thiệu"
+        tools:layout="@layout/fragment_introduction" />
+
+    <fragment
+        android:id="@+id/nav_news"
+        android:name="com.pnhue.myfoodapp.ui.slideshow.NewsFragment"
+        android:label="Tin tức"
+        tools:layout="@layout/fragment_news" />
+
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.pnhue.myfoodapp.ui.ContactFragment"
+        android:label="Liên hệ"
+        tools:layout="@layout/fragment_contact" />
+    <fragment
+        android:id="@+id/nav_cart"
+        android:name="com.pnhue.myfoodapp.ui.CartFragment"
+        android:label="Giỏ hàng"
+        tools:layout="@layout/fragment_cart" />
+
+</navigation>
