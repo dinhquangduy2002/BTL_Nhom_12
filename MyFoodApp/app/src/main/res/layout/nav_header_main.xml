@@ -25,7 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="Phạm Ngọc Huê"
+        android:text="This demo name"
         android:textStyle="bold"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
@@ -33,6 +33,6 @@
         android:id="@+id/tv_user_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="pnhue@gmail.com"
+        android:text="abc@gmail.com"
         android:textStyle="bold"/>
 </LinearLayout>
