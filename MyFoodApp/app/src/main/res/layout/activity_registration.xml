@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.RegistrationActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foreground="@drawable/foregorund_design"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg4"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lobster"
+        android:text="My Food App"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias=".2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Register"
+        android:textAlignment="center"
+        android:textColor="#FBFBFB"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/edt_full_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#ccc"
+        android:drawableLeft="@drawable/ic_baseline_account_circle_24"
+        android:drawablePadding="12dp"
+        android:hint="Full Name"
+        android:textColor="#FBFBFB"
+        android:textColorHint="#FBFBFB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintWidth_percent=".8" />
+
+    <EditText
+        android:id="@+id/edt_email_login"
+        android:inputType="textEmailAddress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ccc"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="12dp"
+        android:hint="Email Address"
+        android:textColor="#FBFBFB"
+        android:textColorHint="#FBFBFB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_full_name"
+        app:layout_constraintWidth_percent=".8" />
+
+    <EditText
+        android:id="@+id/edt_password_login"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ccc"
+        android:drawableLeft="@drawable/ic_baseline_key_24"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="12dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#FBFBFB"
+        android:textColorHint="#FBFBFB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_email_login"
+        app:layout_constraintWidth_percent=".8" />
+
+    <Button
+        android:id="@+id/btn_sign_in"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg_design"
+        android:padding="14dp"
+        android:text="Register"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_password_login"
+        app:layout_constraintVertical_bias=".7"
+        app:layout_constraintWidth_percent="0.8" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Allready Regitered ?"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_sign_in"
+        app:layout_constraintVertical_bias="0.522" />
+
+    <TextView
+        android:id="@+id/tv_sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/btn_sign_in" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
